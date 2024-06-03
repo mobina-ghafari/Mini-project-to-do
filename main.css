@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+header input{
+    width: 600px;
+    padding: 10px;
+    height: 30px;
+}
+
+main{
+    width: 600px;
+    margin-top: 30px;
+}
+
+main ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.to-do-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-size: 20px;
+    color: #333;
+}
+
+.delete-btn{
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+section{
+    width: 600px;
+    margin-top: 30px;
+}
+
+section form input{
+    width: 500px;
+    padding: 10px;
+    height: 30px;
+}
+
+section button{
+    border: 3px solid cadetblue;
+    padding: 15px;
+    cursor: pointer;
+    color: cadetblue;
+    font-size: 18px;
+}
